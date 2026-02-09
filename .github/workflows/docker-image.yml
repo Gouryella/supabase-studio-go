@@ -10,7 +10,7 @@ env:
 
 jobs:
   docker:
-    runs-on: homelab
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout sources
         uses: actions/checkout@v4
